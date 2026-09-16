@@ -1,0 +1,25 @@
+# Dependency directories
+node_modules/
+frontend/node_modules/
+venv/
+backend/venv/
+.venv/
+__pycache__/
+backend/app/__pycache__/
+*.pyc
+
+# Environment & Secret files
+.env
+backend/.env
+frontend/.env
+*.env.local
+
+# Build & Output directories
+dist/
+frontend/dist/
+build/
+
+# System & IDE files
+.DS_Store
+.vscode/
+.idea/
